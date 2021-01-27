@@ -55,3 +55,22 @@ david_smith:
   steam            :
   tumblr           :
   twitter          : ""
+aslisho_qurboniev:
+  name             : "Aslisho Qurboniev"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Sample short bio"
+  email            : ""
+  uri              :
+  flickr           :
+  facebook         : ""
+  github           : ""
+  google_plus      :
+  instagram        :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : ""
+
