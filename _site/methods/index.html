@@ -124,6 +124,9 @@
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About the Project</a></li>
           
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about-passim/">About passim</a></li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
@@ -305,6 +308,7 @@
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fa fa-gears"></i> Table of Contents</h4></header>
 <ul class="toc__menu" id="markdown-toc">
+  <li><a href="#about-passim" id="markdown-toc-about-passim">About passim</a></li>
   <li><a href="#use-cases" id="markdown-toc-use-cases">Use Cases</a></li>
   <li><a href="#statistics" id="markdown-toc-statistics">Statistics</a></li>
 </ul>
@@ -315,6 +319,11 @@
 <p>Existing search engines that accompany common domain Arabic editions or databases currently offer no way to automatically detect reuse, such as quotation, paraphrase, or allusion.</p>
 
 <p>There is no one-size-fits-all algorithm to perfectly detect text reuse—it is very different to look for and visualise rare similarities versus rare differences between texts and across corpora. To detect text reuse and to graphically display it in the most illuminating ways, programmers design algorithms differently, depending on the types of reuse being investigated.</p>
+
+<p><img src="/images/kitab/textreuse.jpg" alt="image-right" class="align-right" /></p>
+<h1 id="about-passim">About passim</h1>
+
+<p>Our aim is to analyse patterns of reuse in a large collection of texts for the period of 700–1500. This will help us  to identify which texts—or which traditions of similar texts—were widely quoted over the centuries, or which sources a given historian might have used, or which books and passages were most widely commented on. If we knew, hypothetically, that we were going to focus on a particular book—e.g., al-Ṭabarī’s Taʾrīkh—we might make do with an existing full-text search engine. <a href="about-passim.md">Read more…</a></p>
 
 <h1 id="use-cases">Use Cases</h1>
 
@@ -332,11 +341,11 @@
 
 <h1 id="statistics">Statistics</h1>
 
-<p>We measure the length of reuse by the number of records (instances of reuse detected by <code class="highlighter-rouge">passim</code>), the number of words in instances, and by the degree of overlap between books, expressed in percentage terms.</p>
+<p>We measure the length of reuse by the number of records (instances of reuse detected by <code class="language-plaintext highlighter-rouge">passim</code>), the number of words in instances, and by the degree of overlap between books, expressed in percentage terms.</p>
 
 <p>We also calculate precision. A traditional computational approach to measuring change (and thus movement away from precision) is an edit-distance calculation, whereby the edit distance between two strings of characters is the number of transformations necessary to mutate the first string into the second. Passim employs this for the purpose of pruning un-interesting records. For now, in our data analytics, we measure precision for each record and on a character basis. We factor only the closeness between actually matching blocks of text.</p>
 
-<p>Data on reuse is collected for the entire corpus. We are studying specific cases and also reuse in the aggregate (through <code class="highlighter-rouge">Power BI</code> and <code class="highlighter-rouge">R</code>).</p>
+<p>Data on reuse is collected for the entire corpus. We are studying specific cases and also reuse in the aggregate (through <code class="language-plaintext highlighter-rouge">Power BI</code> and <code class="language-plaintext highlighter-rouge">R</code>).</p>
 
 <p>Insofar as citation goes, we have no way yet to discern computationally acknowledgment of a previous source. We consider this issue through close reading. It is important to consider citation alongside our data.</p>
 
@@ -376,14 +385,14 @@
     
     
     
-      <li><a href="http://github.com/SarahKITAB"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="http://github.com/https://github.com/kitab-project-org/"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 Knowledge, Information Technology, and the Arabic Book. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Knowledge, Information Technology, and the Arabic Book. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
       </footer>
     </div>
 
